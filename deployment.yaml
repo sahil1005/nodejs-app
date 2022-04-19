@@ -15,7 +15,7 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: asia.gcr.io/ppedetonline/nodejs-test:tagversion
+      - image: hellcasterexe/nodjs-test:tagversion
         name: nodeserver
         ports:
         - containerPort: 3000
